@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Aidar", "Zinnatullin", , "aidar.zinnatullin2@unibo.it", role = c("aut", "cre"),
            comment = c(ORCID = "https://orcid.org/0000-0001-9465-044X"))
-Description: The package allows to tackle the issue of dealing with characted type of data within R eco-system.
+Description: The package allows to tackle the issue of dealing with character type of data within R eco-system.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
