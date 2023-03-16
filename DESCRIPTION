@@ -1,12 +1,16 @@
 Package: regexcite
-Title: What the Package Does (One Line, Title Case)
+Title: Make Regular Expressions More Fancy
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Aidar", "Zinnatullin", , "aidar.zinnatullin2@unibo.it", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/0000-0001-9465-044X"))
+Description: The package allows to tackle the issue of dealing with characted type of data within R eco-system.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    stringr
